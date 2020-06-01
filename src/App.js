@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Description from './components/description/Description';
 
-class App extends Component{ 
+class App extends Component {
 
   render() {
     return (
-      <div> 
-        My new app
+      <div>
+        <Description></Description>
       </div>
     )
   }
