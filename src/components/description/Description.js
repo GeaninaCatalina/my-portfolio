@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './Description.css';
+import { Card, Image } from 'semantic-ui-react';
 
 class Description extends Component {
 
   render() {
     return (
-      <div className='cover-container'>
-        <h1> 
-          <image></image>
-          Geanina Catalina Masgras | Web Developer
-        </h1>
+      <div className='cover-container'> 
+        <img scr='/src/assets/images/description.jpg' alt='me'></img>
+
         <p className='description-container' id='section1'>
           I am a self-taught web developer, with a background in business analysis.
           In this industry my mission is to help others by creating products that solve their real needs.
