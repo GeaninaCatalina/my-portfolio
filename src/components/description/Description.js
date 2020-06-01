@@ -10,15 +10,9 @@ class Description extends Component {
       <div className='cover-container'>
           <Grid columns={2} relaxed='very' centered verticalAlign='middle'>
             <Grid.Column textAlign='center' className='card-container' id='grid-cell'>
-                <Card className='card-container' id='card'>
                   <Image src='/assets/images/description.jpg' />
-                  <Card.Content>
-                    <Card.Header>Geanina Catalina Vusca</Card.Header>
-                    <Card.Description>Web Developer</Card.Description>
-                  </Card.Content>
-                </Card>
             </Grid.Column>
-            <Grid.Column textAlign='justified'>
+            <Grid.Column  textAlign='justified'>
               <div className='description-container' id='description'>
                 <p className='description-container' id='section1'>
                   I am a self-taught web developer, with a background in business analysis.
