@@ -1,0 +1,9 @@
+.cover-container{
+    margin: 5em;
+}
+
+#grid-cell{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}

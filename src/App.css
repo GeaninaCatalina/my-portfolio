@@ -1,2 +1,19 @@
 
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 10em;
+    margin: 10px;
+    margin-top: 20px;
+    border-bottom: black;
+}
 
+.footer-container{ 
+    background-color: rgb(202, 50, 50);
+
+    position: relative;
+    height: 200px;
+    bottom: 0;
+}
