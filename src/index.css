@@ -1,6 +1,7 @@
 body{
   margin: 0;
-  
+    background-image: url('https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=2638&q=80');
+    background-size: cover;
 }
 
 code {

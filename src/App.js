@@ -1,33 +1,37 @@
 import React, { Component } from 'react';
 import './App.css';
 import Description from './components/description/Description';
-import { Button, Icon } from 'semantic-ui-react';
+import HelloPage from './components/helloPage/HelloPage.js'
+import { Image, Button, ButtonGroup } from 'semantic-ui-react';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 class App extends Component {
 
-    render() {
-        return ( <
-            div className = 'body-container' >
-            <
-            div className = 'menu-container' >
-            <
-            div > Geanina Catalina Masgras | Web Developer < /div> <
-            div className = 'button' >
-            <
-            Button className = 'menu-button'
-            color = 'teal' > Home < /Button> <
-            Button className = 'menu-button'
-            color = 'teal' > Projects < /Button> < /
-            div > <
-            /div> <
-            Description > < /Description> <
-            footer className = 'footer-container' >
-            <
-            h2 > Find me on social media < /h2> < /
-            footer > <
-            /div>
-        )
-    }
+  render() {
+    return (
+      <div className='container-router'>
+        <div className='menu-container'>
+          <div className='headerText'>
+            <Image src='assets/images/description.jpg' avatar size='mini'/>
+          </div>
+          <div className='link-container'>
+            <ButtonGroup>
+            <Button className='menu-link' size='big'>Home </Button>
+            <Button className='menu-link' size='big'>About </Button>
+            <Button className='menu-link' size='big'>Projects </Button>
+            <Button className='menu-link' size='big'>Contact </Button>
+            </ButtonGroup>
+          </div>
+        </div>
+        <Router>
+          <Switch>
+            <Route exact path='/home' component={HelloPage}/>
+            <Route exact path='/about' component={Description}/>
+          </Switch>
+        </Router>
+      </div >
+    )
+  }
 }
 
 export default App;
