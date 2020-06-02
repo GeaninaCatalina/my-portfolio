@@ -11,20 +11,20 @@ class App extends Component {
             <
             div className = 'menu-container' >
             <
-            div > Geanina Catalina Masgras | Web Developer < /di> <
+            div > Geanina Catalina Masgras | Web Developer < /div> <
             div className = 'button' >
             <
             Button className = 'menu-button'
             color = 'teal' > Home < /Button> <
             Button className = 'menu-button'
-            color = 'teal' > Projects < /Button> <
-            /div> <
+            color = 'teal' > Projects < /Button> < /
+            div > <
             /div> <
             Description > < /Description> <
             footer className = 'footer-container' >
             <
-            h2 > Find me on social media < /h2> <
-            /footer> <
+            h2 > Find me on social media < /h2> < /
+            footer > <
             /div>
         )
     }

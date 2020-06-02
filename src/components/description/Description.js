@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Card, Grid } from 'semantic-ui-react';
+import { Image, Grid } from 'semantic-ui-react';
 import './Description.css';
 
 
@@ -10,7 +10,7 @@ class Description extends Component {
       <div className='cover-container'>
           <Grid columns={2} relaxed='very' centered verticalAlign='middle'>
             <Grid.Column textAlign='center' className='card-container' id='grid-cell'>
-                  <Image src='/assets/images/description.jpg' />
+                  <Image src='/assets/images/description.jpg' alt='my-self'/>
             </Grid.Column>
             <Grid.Column  textAlign='justified'>
               <div className='description-container' id='description'>
