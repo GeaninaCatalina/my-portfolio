@@ -25,3 +25,17 @@
 .link-container {
     display: inline-block;
 }
+
+
+.box:hover{
+    transform: scale(1.5);
+/* This is to enlarge the circle */
+}
+
+
+
+/* Gradient from the website */
+/* https://uigradients.com */
+
+/* Shadow Effect From */
+/* https://www.cssmatic.com */

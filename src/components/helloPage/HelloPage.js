@@ -8,7 +8,7 @@ class HelloPage extends Component {
     return (
       <div className='page-body'>
         <h1 class="home-title">
-          <span>Hello, I am Geanina</span>
+          <span>Hello, I am Geanina.</span>
           <span>Web Developer</span>
         </h1>
       </div>
