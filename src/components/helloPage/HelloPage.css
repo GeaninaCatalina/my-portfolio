@@ -15,11 +15,11 @@
   height: 80vh;
   color: #000;
   font-family: 'Maitree', serif;
-  font-size: 20px;
+  font-size: 3em;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: center;
 }
