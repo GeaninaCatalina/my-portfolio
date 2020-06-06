@@ -1,14 +1,24 @@
 
 .cover-container{
-    margin: 10em;
-    height: 450px;
-    background-color: whitesmoke;
+    margin: 5%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cover-grid{
+    background-color: rgba(224, 223, 223, 0.2);
 }
 
 .description-container{
-    margin: 20px;
-    margin-top: 20px;
+ 
     text-overflow: clip;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
+    opacity: 1;
+}
+
+#icon{
+    margin-left: 2em;
 }
