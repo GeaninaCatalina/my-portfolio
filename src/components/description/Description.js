@@ -9,17 +9,12 @@ class Description extends Component {
   render() {
     return (
       <div className='cover-container'>
-        <Grid columns={3} relaxed='very' centered verticalAlign='middle' divided>
+        <Grid columns={3} relaxed='very' centered verticalAlign='middle'>
           <Grid.Column width={5} textAlign='center' className='card-container' id='grid-cell'>
             <h3>Skils</h3>
           </Grid.Column>
           <Grid.Column width={5} className='card-container' id='grid-cell'>
             <Image src='/assets/images/description.jpg' alt='my-self' avatar size='medium' />
-            <ButtonGroup>
-              <Button circular color='twitter' icon='twitter' />
-              <Button circular color='linkedin' icon='linkedin' />
-              <Button circular color='github' icon='github' />
-            </ButtonGroup>
           </Grid.Column>
           <Grid.Column width={6} textAlign='justified'>
             <div className='description-container' id='description'>
