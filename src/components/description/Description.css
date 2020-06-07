@@ -1,14 +1,14 @@
 
 .cover-container{
     margin: 5%;
-    height: 650px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
 .cover-grid{
-    background-color: rgba(224, 223, 223, 0.2);
+    background-color: rgba(220, 223, 223, 0.2);
 }
 
 .description-container{
@@ -20,5 +20,13 @@
 }
 
 #icon{
-    margin-left: 2em;
+    margin-left: 20px;
+}
+.skils-icons{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.ui.label{
+    margin-top: 10px;
 }

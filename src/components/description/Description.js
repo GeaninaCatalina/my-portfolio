@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { Image, Grid } from 'semantic-ui-react';
+import { Image, Grid, Label } from 'semantic-ui-react';
 import './Description.css';
+
+const icons = ['js', 'react', 'css', 'html', 'sql', 'nodejs', 'github', 'semantic'];
+const lables = ['Team Player', 'Agile Methodologies', 'Time Management', 'Assertiveness', 'Critical thinking', 'Conflict management', 'Friendliness']
 
 class Description extends Component {
 
@@ -9,23 +12,16 @@ class Description extends Component {
       <div className='cover-container' id='background'>
         <Grid stackable columns={3} relaxed='very' className='cover-grid' centered>
           <Grid.Column width={5} textAlign='center' className='card-container' id='grid-cell'>
-            <h3>Skils</h3>
-            <Grid stackable columns={2} relaxed >
+            <Grid stackable columns={2} relaxed verticalAlign='top'>
               <Grid.Row>
-              <Grid.Column centered textAlign='center'>
-                <h4>Hard</h4>
-                <Image src='/assets/icons/js.png' avatar size='mini' />
-                <Image src='/assets/icons/react.png' avatar size='mini' />
-              </Grid.Column>
-              <Grid.Column stackable textAlign='center' >
-                <h4>Soft</h4>
-              </Grid.Column>
-              </Grid.Row>
-              <Grid.Row>
-              <Grid.Column centered textAlign='center'>
-                <Image src='/assets/icons/css.png' avatar size='mini' />
-                <Image src='/assets/icons/html.png' avatar size='mini' />
-              </Grid.Column>
+                <Grid.Column centered textAlign='center'>
+                  <h4>Hard Skils</h4>
+                  {icons.map(iconName => { return <Image src={'/assets/icons/' + iconName + '.png'} avatar size='mini' className='skils-icons' /> })}
+                </Grid.Column>
+                <Grid.Column stackable textAlign='left'>
+                  <h4>Soft Skils</h4>
+                  {lables.map(lable => { return <Label className='skils-lables'>{lable}</Label> })}
+                </Grid.Column>
               </Grid.Row>
             </Grid>
           </Grid.Column>
@@ -64,9 +60,17 @@ class Description extends Component {
                 I am a self-taught web developer, with a background in functional analysis and BI.
                 </p>
               <p className='description-container' id='2'>
-                I value kindness, honesty, and integrity because in my opinion are the most important values that need to exist in every relationship, no matter what.
-                Therefore, I will be honest and transparent even if things go wrong, so I can be a trusted partner in all aspects of my life.
-                </p>
+                I started my career as a BI developer, to finally grow as a Business Analyst/PO.
+                After five years in this field, last year I decided that I want to know how the software products are actually build.
+                I started to learn web development and ended up loving it.
+              </p>
+              <p className='description-container' id='3'>
+                I invested in a few online courses and build web applications using technologies  as Javascript, NodeJs, React, CSS and HTML.
+                I was lucky enough to have a mentor during my journey who introduced me to Git, Github and who review my code and he has given me meaningful insights about a developer life.
+              </p>
+              <p className='description-container' id='3'>
+                Since I realised that this is what I want to do from now on, I coded  and learn nearly every day, no matter what because coding is now my biggest hobby and passion.
+              </p>
             </div>
           </Grid.Column>
         </Grid>

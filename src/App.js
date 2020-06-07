@@ -5,6 +5,7 @@ import HelloPage from './components/helloPage/HelloPage.js';
 import Menu from './components/menu/Menu.js';
 import { Image } from 'semantic-ui-react';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
+import Projects from './components/projects/Projects';
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/home' component={HelloPage} />
             <Route exact path='/about' component={Description} />
+            <Route exact path='/projects' component={Projects} />
             <Route exact path='/'>
                 <Redirect to='/home'></Redirect>
             </Route>
