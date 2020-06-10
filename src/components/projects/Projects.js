@@ -11,7 +11,12 @@ class Projects extends Component {
           <Grid stackable columns={2} relaxed='very' className='container-gridProjects'>
             <GridRow>
               <Grid.Column width={7} >
-                <Image src='/assets/projects/playground.png' alt='messenger' size='large' />
+                <Image 
+                  src='/assets/projects/playground.png' 
+                  alt='playground' 
+                  size='large'
+                  className='container-image' id='playground'
+                  />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left'>
                 <p>
@@ -23,9 +28,14 @@ class Projects extends Component {
                 </p>
               </Grid.Column>
             </GridRow>
-         <GridRow>
-         <Grid.Column width={7} >
-                <Image src='/assets/projects/messenger.png' alt='messenger' size='large' />
+            <GridRow>
+              <Grid.Column width={7} >
+                <Image
+                  src='/assets/projects/messenger.png'
+                  alt='messenger'
+                  size='large'
+                  className='container-image' id='messenger'
+                />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left'>
                 <p>
@@ -38,8 +48,13 @@ class Projects extends Component {
               </Grid.Column>
             </GridRow>
             <GridRow>
-         <Grid.Column width={7} >
-                <Image src='/assets/projects/calculator.png' alt='messenger' size='large' />
+              <Grid.Column width={7} >
+                <Image
+                  src='/assets/projects/calculator.png' 
+                  alt='calculator' 
+                  size='large' 
+                  className='container-image' id='calculator'
+                  />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left'>
                 <p>
@@ -52,8 +67,13 @@ class Projects extends Component {
               </Grid.Column>
             </GridRow>
             <GridRow>
-         <Grid.Column width={7} >
-                <Image src='/assets/projects/countdown.png' alt='messenger' size='large' />
+              <Grid.Column width={7} >
+                <Image 
+                  src='/assets/projects/countdown.png'
+                  alt='countdown' 
+                  size='large'
+                  className='container-image' id='countdown' 
+                  />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left'>
                 <p>
