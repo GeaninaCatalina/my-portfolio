@@ -24,7 +24,7 @@ class Projects extends Component {
                   Based on the input, each button will return the result of an algorithm.
                   </p>
                 <p>
-                  The most complex exercises are TicTacToe, Goimoku and Spare Matrix.
+                  The most complex exercises are TicTacToe, Gomoku and Spare Matrix.
                 </p>
               </Grid.Column>
             </GridRow>
@@ -41,9 +41,18 @@ class Projects extends Component {
                 <p>
                   React application where I exercised  and learned basics algorithms with JavaScript.
                   Based on the input, each button will return the result of an algorithm.
-                  </p>
-                <p>
+                  </p><p>
                   The most complex exercises are TicTacToe, Goimoku and Spare Matrix.
+                </p><p>
+                  Used tehnoligies: 
+                  <ul>
+                    <li>React</li>
+                    <li>Semmantic-Ui</li>
+                    <li>Nodejs Express</li>
+                    <li>in18</li>
+                    <li>Axios</li>
+                    <li>Soket.io</li>
+                  </ul>
                 </p>
               </Grid.Column>
             </GridRow>
