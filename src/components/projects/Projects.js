@@ -19,6 +19,7 @@ class Projects extends Component {
                   />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left'>
+                <h3>Notes and Lists </h3>
                 <p>
                   Play Ground is a React application where I exercised  and learned basics algorithms with JavaScript.
                   Based on the input, each button will return the result of an algorithm.
@@ -44,7 +45,6 @@ class Projects extends Component {
                   </p><p>
                   The most complex exercises are TicTacToe, Goimoku and Spare Matrix.
                 </p><p>
-                  Used tehnoligies: 
                   <ul>
                     <li>React</li>
                     <li>Semmantic-Ui</li>
