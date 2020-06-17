@@ -10,8 +10,8 @@ class Description extends Component {
   render() {
     return (
        
-        <div className='cover-container' id='background'>
-          <Grid stackable columns={3} relaxed='very' className='cover-grid' centered>
+        <div className='cover-container'>
+          <Grid stackable columns={3} relaxed='very' className='cover-container' id='grid-description' centered>
             <GridRow columns={3} textAlign='center'>
               <GridColumn width={5}></GridColumn>
               <GridColumn width={5}>
@@ -19,6 +19,7 @@ class Description extends Component {
               </GridColumn>
               <GridColumn width={6}></GridColumn>
             </GridRow>
+            <GridRow>
             <Grid.Column width={5} textAlign='center' className='card-container' id='grid-cell'>
               <Grid stackable columns={2} relaxed verticalAlign='top'>
                 <Grid.Row>
@@ -32,7 +33,7 @@ class Description extends Component {
                   </Grid.Column>
                 </Grid.Row>
               </Grid>
-            </Grid.Column>
+            </Grid.Column>  
             <Grid.Column width={5} className='card-container' id='grid-cell'>
               <Grid stackable columns={1} relaxed centered>
                 <Grid.Row>
@@ -81,6 +82,7 @@ class Description extends Component {
               </p>
               </div>
             </Grid.Column>
+            </GridRow>
           </Grid>
         </div>
     )

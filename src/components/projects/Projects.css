@@ -8,6 +8,10 @@
     background-color: rgba(220, 223, 223, 0.2);
 }
 
+.grid-project{
+    background-color: rgba(220, 223, 223, 0.2);
+}
+
 .container-gridProjects{
     text-overflow: clip;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

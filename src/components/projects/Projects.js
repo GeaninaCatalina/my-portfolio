@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Image, GridRow, GridColumn } from 'semantic-ui-react';
+import { Grid, Image, GridRow, GridColumn, Button } from 'semantic-ui-react';
 import './Projects.css';
 
 class Projects extends Component {
@@ -8,10 +8,10 @@ class Projects extends Component {
     return (
       <div className='container-projects'>
         <div className='container-gridProjects'>
-          <Grid stackable columns={2} relaxed='very' className='container-gridProjects'>
+          <Grid stackable columns={2} relaxed='very' className='container-gridProjects' id='grid-project'>
             <GridRow columns={2}>
               <GridColumn textAlign='center'>
-              <h2 className='title'>Projects</h2>
+                <h2 className='title'>Projects</h2>
               </GridColumn>
               <GridColumn width={3}></GridColumn>
             </GridRow>
@@ -31,8 +31,8 @@ class Projects extends Component {
                   Notes and lists is an application build with React, NodeJS and MongoDB.
                   I have created this application to learn how to work with MongoDB and Node Express.
                 </p>
-                <Grid columns={2} stackable>
-                  <Grid.Row>
+                <Grid stackable>
+                  <Grid.Row columns={2}>
                     <Grid.Column>
                       <h4>Functionalities:</h4>
                       <ul>
@@ -60,6 +60,12 @@ class Projects extends Component {
                       </ul>
                     </Grid.Column>
                   </Grid.Row>
+                  <GridRow columns={1}>
+                    <GridColumn verticalAlign='top'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
                 </Grid>
               </Grid.Column>
             </GridRow>
