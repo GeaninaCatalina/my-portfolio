@@ -59,7 +59,7 @@ class Projects extends Component {
                         <li>Mongoose</li>
                       </ul>
                     </Grid.Column>
-                  </Grid.Row>
+                  </Grid.Row >
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top'>
                       <Button>Go to code</Button>
