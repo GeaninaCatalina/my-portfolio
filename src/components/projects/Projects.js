@@ -61,7 +61,7 @@ class Projects extends Component {
                     </Grid.Column>
                   </Grid.Row >
                   <GridRow columns={1}>
-                    <GridColumn verticalAlign='top'>
+                    <GridColumn verticalAlign='top' textAlign='center'>
                       <Button>Go to code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
@@ -110,6 +110,12 @@ class Projects extends Component {
                       </ul>
                     </Grid.Column>
                   </Grid.Row>
+                  <GridRow columns={1}>
+                    <GridColumn verticalAlign='top' textAlign='center'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
                 </Grid>
               </Grid.Column>
             </GridRow>
@@ -139,6 +145,12 @@ class Projects extends Component {
                       </ul>
                     </Grid.Column>
                   </Grid.Row>
+                  <GridRow columns={1}>
+                    <GridColumn verticalAlign='top' textAlign='center'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
                 </Grid>
               </Grid.Column>
             </GridRow>
@@ -169,6 +181,12 @@ class Projects extends Component {
                       </ul>
                     </Grid.Column>
                   </Grid.Row>
+                  <GridRow columns={1}>
+                    <GridColumn verticalAlign='top' textAlign='center'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
                 </Grid>
               </Grid.Column>
             </GridRow>
@@ -199,6 +217,12 @@ class Projects extends Component {
                       </ul>
                     </Grid.Column>
                   </Grid.Row>
+                  <GridRow columns={1}>
+                    <GridColumn verticalAlign='top' textAlign='center'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
                 </Grid>
               </Grid.Column>
             </GridRow>
@@ -213,14 +237,18 @@ class Projects extends Component {
                 />
               </Grid.Column>
               <Grid.Column width={9} textAlign='left' verticalAlign='top'>
-                <h3>Playground</h3>
+                <h3>Magic of cooking</h3>
                 <p>
-                  Playground is a React application where I exercised and learned basic algorithms with JavaScript.
-                  The most complex exercises were TicTacToe, Gomoku and Spare Matrix.
+                  Macgic of cooking is a cooking blog. Is created using only html and CSS. 
                 </p>
               </Grid.Column>
             </GridRow>
-
+            <GridRow columns={1}>
+                    <GridColumn verticalAlign='top' textAlign='center'>
+                      <Button>Go to code</Button>
+                      <Button>Demo</Button>
+                    </GridColumn>
+                  </GridRow>
           </Grid>
         </div>
       </div >
