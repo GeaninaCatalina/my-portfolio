@@ -236,19 +236,21 @@ class Projects extends Component {
                   className='container-image'
                 />
               </Grid.Column>
-              <Grid.Column width={9} textAlign='left' verticalAlign='top'>
+              <Grid.Column width={9} verticalAlign='top'>
                 <h3>Magic of cooking</h3>
                 <p>
-                  Macgic of cooking is a cooking blog. Is created using only html and CSS. 
+                  Macgic of cooking is a cooking blog. Is created using only html and CSS.
                 </p>
-              </Grid.Column>
+            <Grid stackable textAlign='center'> 
+            <GridRow columns={1} >
+              <GridColumn textAlign='center'>
+                <Button>Go to code</Button>
+                <Button>Demo</Button>
+              </GridColumn>
             </GridRow>
-            <GridRow columns={1}>
-                    <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
-                      <Button>Demo</Button>
-                    </GridColumn>
-                  </GridRow>
+            </Grid>
+            </Grid.Column>
+            </GridRow>
           </Grid>
         </div>
       </div >
