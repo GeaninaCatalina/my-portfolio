@@ -62,7 +62,7 @@ class Projects extends Component {
                   </Grid.Row >
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
+                      <Button>See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -112,7 +112,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
+                      <Button>See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -147,7 +147,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
+                      <Button>See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -183,7 +183,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
+                      <Button>See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -219,7 +219,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>Go to code</Button>
+                      <Button>See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -244,7 +244,7 @@ class Projects extends Component {
             <Grid stackable textAlign='center'> 
             <GridRow columns={1} >
               <GridColumn textAlign='center'>
-                <Button>Go to code</Button>
+                <Button>See code</Button>
                 <Button>Demo</Button>
               </GridColumn>
             </GridRow>
