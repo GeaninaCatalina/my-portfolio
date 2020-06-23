@@ -62,7 +62,7 @@ class Projects extends Component {
                   </Grid.Row >
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>See code</Button>
+                      <Button href='https://github.com/GeaninaCatalina/shop-list' target="_blank">See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -112,7 +112,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>See code</Button>
+                    <Button href='https://github.com/GeaninaCatalina/messenger' target="_blank">See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -147,7 +147,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>See code</Button>
+                    <Button href='https://github.com/GeaninaCatalina/calculator' target="_blank">See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -183,8 +183,8 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>See code</Button>
-                      <Button>Demo</Button>
+                    <Button href='https://github.com/GeaninaCatalina/countdown' target="_blank">See code</Button>
+                    <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -219,7 +219,7 @@ class Projects extends Component {
                   </Grid.Row>
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
-                      <Button>See code</Button>
+                    <Button href='https://github.com/GeaninaCatalina/algorithms-basics' target="_blank">See code</Button>
                       <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
@@ -244,8 +244,8 @@ class Projects extends Component {
             <Grid stackable textAlign='center'> 
             <GridRow columns={1} >
               <GridColumn textAlign='center'>
-                <Button>See code</Button>
-                <Button>Demo</Button>
+              <Button href='https://github.com/GeaninaCatalina/Recipes' target="_blank">See code</Button>
+               <Button>Demo</Button>
               </GridColumn>
             </GridRow>
             </Grid>
