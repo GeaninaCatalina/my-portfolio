@@ -190,7 +190,6 @@ class Projects extends Component {
                 </Grid>
               </Grid.Column>
             </GridRow>
-
             {/* Playground */}
             <GridRow>
               <Grid.Column width={7} verticalAlign='top'>
