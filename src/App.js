@@ -3,6 +3,7 @@ import './App.css';
 import Description from './components/description/Description';
 import HelloPage from './components/helloPage/HelloPage.js';
 import Menu from './components/menu/Menu.js';
+import Contact from './components/menu/contact/Contact.js';
 import { Image } from 'semantic-ui-react';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import Projects from './components/projects/Projects';
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path='/home' component={HelloPage} />
             <Route exact path='/about' component={Description} />
             <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
             <Route exact path='/'>
                 <Redirect to='/home'></Redirect>
             </Route>
