@@ -24,7 +24,7 @@ class Description extends Component {
                   <GridColumn textAlign='center'>
                     <Image src={'/assets/icons/location.png'} size='mini' verticalAlign='middle' />{' '}
                     <span>Leuven, Belgium</span>
-                    <h3></h3>
+                    <h3> </h3>
                   </GridColumn>
                   <GridColumn textAlign='left'>
                     <Image src={'/assets/icons/email.png'} size='mini' verticalAlign='middle' />
