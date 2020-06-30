@@ -1,4 +1,4 @@
-.container-gridProjects{
+.container-grid{
     margin: 5%;
     height: 100%;
     display: flex;
@@ -7,8 +7,9 @@
     justify-content: center;
 }
 
-.grid-project{
-    background-color: rgba(220, 223, 223, 0.4);
+#grid-project{
+    background-color: rgba(220, 223, 223, 0.5);
+
 }
 
 .container-gridProjects{

@@ -6,9 +6,8 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className='container-projects'>
-        <div className='container-gridProjects'>
-          <Grid stackable columns={2} relaxed='very' className='container-gridProjects' id='grid-project'>
+      <div className='container-grid'>
+          <Grid stackable columns={2} relaxed='very' className='container-grid' id='grid-project'>
             <GridRow columns={2}>
               <GridColumn textAlign='center'>
                 <h2 className='title'>Projects</h2>
@@ -63,7 +62,6 @@ class Projects extends Component {
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
                       <Button href='https://github.com/GeaninaCatalina/shop-list' target="_blank">See code</Button>
-                      <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -113,7 +111,6 @@ class Projects extends Component {
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
                     <Button href='https://github.com/GeaninaCatalina/messenger' target="_blank">See code</Button>
-                      <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -148,7 +145,6 @@ class Projects extends Component {
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
                     <Button href='https://github.com/GeaninaCatalina/calculator' target="_blank">See code</Button>
-                      <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -184,7 +180,6 @@ class Projects extends Component {
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
                     <Button href='https://github.com/GeaninaCatalina/countdown' target="_blank">See code</Button>
-                    <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -219,7 +214,6 @@ class Projects extends Component {
                   <GridRow columns={1}>
                     <GridColumn verticalAlign='top' textAlign='center'>
                     <Button href='https://github.com/GeaninaCatalina/algorithms-basics' target="_blank">See code</Button>
-                      <Button>Demo</Button>
                     </GridColumn>
                   </GridRow>
                 </Grid>
@@ -244,7 +238,6 @@ class Projects extends Component {
             <GridRow columns={1} >
               <GridColumn textAlign='center'>
               <Button href='https://github.com/GeaninaCatalina/Recipes' target="_blank">See code</Button>
-               <Button>Demo</Button>
               </GridColumn>
             </GridRow>
             </Grid>
@@ -252,7 +245,6 @@ class Projects extends Component {
             </GridRow>
           </Grid>
         </div>
-      </div >
     )
   }
 }

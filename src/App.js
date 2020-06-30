@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Description from './components/description/Description';
-import HelloPage from './components/helloPage/HelloPage.js';
+import Description from './components/menu/description/Description';
+import HelloPage from './components/menu/helloPage/HelloPage.js';
 import Menu from './components/menu/Menu.js';
 import Contact from './components/menu/contact/Contact.js';
 import { Image } from 'semantic-ui-react';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
-import Projects from './components/projects/Projects';
+import Projects from './components/menu/projects/Projects';
 
 class App extends Component {
 
